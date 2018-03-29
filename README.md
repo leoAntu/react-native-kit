@@ -1,9 +1,9 @@
 ### react-native高效的脚手架
 #### 1.使用说明
-1. clone git本项目
-2. yarn install （0.50版本后推荐使用yarn）
-3. react-native link
-4. react-native run-ios/run-android
+1. `clone git`本项目
+2. `yarn install` （0.50版本后推荐使用yarn）
+3. `react-native link`
+4. `react-native run-ios/run-android`
 
 #### 2.主要使用到框架
 * redux 全家桶（react-redux.redux-thunk,redux-logger）
@@ -14,14 +14,14 @@
 #### 3.再开发中，遇到使用的组件会持续更新 。。。。。
 
 #### 4.Android下载地址
-* 安装密码： 123456
+* `安装密码： 123456`
 <br/>
 <br/>
-![androidDemo](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/hyvi.png)
+![androidDemo.png](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/hyvi.png)
 
-
+           
 #### 5.ios预览
-![iosDemo](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/2018-03-29%2014_18_20.gif)
+![iosDemo.gif](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/2018-03-29%2014_18_20.gif)
 
 
 
