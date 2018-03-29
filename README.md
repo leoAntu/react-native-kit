@@ -11,7 +11,7 @@
 * react-navigation 自定义tabBar，更方便DIY。让你的tabBar更满足产品需求
 * react-navigation 自定义StackNavigator，让整个项目任意切换跳转动画（例如：水平动画，modal动画），网上有很多直接通过修改transitionConfig方法实现此功能，但会出现动画混乱，黑屏，或者动画消失
 
-#### 3.再开发中，遇到使用的组件会持续更新 。。。。。
+#### 3.在开发中，遇到实用的组件会持续更新 。。。。。
 
 #### 4.Android下载地址
 * `安装密码： 123456`
