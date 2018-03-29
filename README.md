@@ -17,11 +17,11 @@
 * 安装密码： 123456
 <br/>
 <br/>
-![](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/hyvi.png)
+![androidDemo](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/hyvi.png)
 
 
 #### 5.ios预览
-![](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/2018-03-29%2014_06_48.gif)
+![iosDemo](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/2018-03-29%2014_18_20.gif)
 
 
 
