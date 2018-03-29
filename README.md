@@ -17,7 +17,7 @@
 * `安装密码： 123456`
 <br/>
 <br/>
-![androidDemo.png](https://github.com/leoAntu/react-native-kit/blob/master/react_native_kit/img/hyvi.png)
+<img src="https://www.pgyer.com/app/qrcode/hyvi?sig=GT%2BBXd%2Bs9kfGhAadLmRQ4gY9AgR1mwMDeEtvEkz4EqKD5LdOUipbscBJiArH%2Fcr0"  height="200" width="200">
 
            
 #### 5.ios预览
