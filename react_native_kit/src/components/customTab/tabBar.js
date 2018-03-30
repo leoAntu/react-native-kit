@@ -10,9 +10,10 @@ import {
     TouchableWithoutFeedback,
     NativeModules,
     ImageBackground,
-    DeviceEventEmitter
+    DeviceEventEmitter,
 } from 'react-native';
 import { Dimensions, } from 'react-native';
+import {SafeAreaView} from 'react-navigation'
 const {width,height,scale}= Dimensions.get('window');      //设备的宽度
 const defaultPixel = 2;
 function scaleSize(size: number) {
@@ -73,23 +74,27 @@ export default class Tab extends Component {
             tintColor:color
         };
 
-        return (<View style={{width:width,height:49,position:'relative'}}>
-            <View style={styles.tab}>
-                {routes && routes.map((route,index) => this.renderItem(route, index))}
-            </View>
-            <TouchableWithoutFeedback
-                key={"centerView"}
-                // style={[styles.tabItem,{position:'absolute',top:0,left:width/2,height:120,zIndex:100}]}
-                onPress={() => {
-                    jumpToIndex(2)
-                }}>
-                <View
-                    style={[styles.tabItem,{position:'absolute',bottom:-15,left:width/2 - width/5/2,height:80,zIndex:100}]}>
-                    {this.props.renderIcon(TabScene)}
-                    <Text style={{ ...styles.tabText,color,marginTop:8 }}>{this.props.getLabel(TabScene)}</Text>
-                </View>
-            </TouchableWithoutFeedback>
-        </View>);
+        return (
+            <SafeAreaView>
+                <View style={{width:width,height:49,position:'relative'}}>
+                    <View style={styles.tab}>
+                        {routes && routes.map((route,index) => this.renderItem(route, index))}
+                    </View>
+                    <TouchableWithoutFeedback
+                        key={"centerView"}
+                        // style={[styles.tabItem,{position:'absolute',top:0,left:width/2,height:120,zIndex:100}]}
+                        onPress={() => {
+                            jumpToIndex(2)
+                        }}>
+                        <View
+                            style={[styles.tabItem,{position:'absolute',bottom:-15,left:width/2 - width/5/2,height:80,zIndex:100}]}>
+                            {this.props.renderIcon(TabScene)}
+                            <Text style={{ ...styles.tabText,color,marginTop:8 }}>{this.props.getLabel(TabScene)}</Text>
+                        </View>
+                    </TouchableWithoutFeedback>
+                 </View>
+            </SafeAreaView>
+        );
     }
 }
 const styles = {
